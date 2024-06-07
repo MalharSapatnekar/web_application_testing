@@ -1,3 +1,3 @@
 # web_application_testing
 
-This is a sample repo created for robot framework test cases for amazon webpage testing.   
+This repository contains sample test cases created using Robot Framework for testing the Amazon webpage.
