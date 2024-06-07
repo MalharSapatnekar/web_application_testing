@@ -1,0 +1,43 @@
+*** Settings ***
+
+
+Resource  ../../resources/Common.resource
+Resource  ../../resources/AmazonApp.resource
+Test Setup  Begin Web Test
+Test Teardown  End Web Test
+
+*** Variables ***
+${data_to_process}        Shekhar
+${search_query}     css=input[name=q]
+
+*** Test Cases ***
+
+user can add product to cart, View Cart and Add More Products to the cart
+    [Tags]  TC-1433
+    Given user is not logged in
+    And user searches for products
+    And search results contains relevant products
+    And user selects a product from search results
+    And correct product page loads
+    And user adds that product to their cart
+    And the product is present in cart
+    When user click on checkout
+    Then user should sign in to their account
+
+Add_For_DemoTest
+    [Tags]     Test
+    Log    Hello world
+    Open browser    http://google.com    chrome
+    Maximize Browser Window
+    # Sleep    5
+    # Input Text    ${search_query}   ${t}
+    Input Text    ${search_query}     ${data_to_process} 
+    Sleep    5
+    Close Browser
+
+
+Add_amazon
+    Open browser  http://www.amazon.com    chrome
+	Wait Until Page Contains  Amazon.com
+	Sleep    5
+    Close Browser

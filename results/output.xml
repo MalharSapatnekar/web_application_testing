@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220701 08:36:29.344" rpa="false" schemaversion="3">
+<suite id="s1" name="Amazon" source="C:\dev\robot-scripts\amazon\tests\Amazon.robot">
+<test id="s1-t1" name="Amazon Site Home Page" line="11">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.amazon.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220701 08:36:30.052" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.com'.</msg>
+<status status="PASS" starttime="20220701 08:36:30.051" endtime="20220701 08:36:35.664"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220701 08:36:35.666" endtime="20220701 08:36:35.939"/>
+</kw>
+<kw name="Log Title" library="SeleniumLibrary">
+<doc>Logs and returns the title of the current page.</doc>
+<msg timestamp="20220701 08:36:36.021" level="INFO">Amazon.com. Spend less. Smile more.</msg>
+<status status="PASS" starttime="20220701 08:36:35.939" endtime="20220701 08:36:36.021"/>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>Amazon.com. Spend less. Smile more.</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<msg timestamp="20220701 08:36:36.029" level="INFO">Page title is 'Amazon.com. Spend less. Smile more.'.</msg>
+<status status="PASS" starttime="20220701 08:36:36.022" endtime="20220701 08:36:36.029"/>
+</kw>
+<status status="PASS" starttime="20220701 08:36:30.048" endtime="20220701 08:36:36.030"/>
+</test>
+<test id="s1-t2" name="Amazon Search Product" line="17">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>css:input[aria-label="Search"]</arg>
+<arg>lenovo tablet</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220701 08:36:36.037" level="INFO">Typing text 'lenovo tablet' into text field 'css:input[aria-label="Search"]'.</msg>
+<status status="PASS" starttime="20220701 08:36:36.037" endtime="20220701 08:36:36.372"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>css:input[type="submit"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220701 08:36:36.374" level="INFO">Clicking button 'css:input[type="submit"]'.</msg>
+<status status="PASS" starttime="20220701 08:36:36.373" endtime="20220701 08:36:39.974"/>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>Amazon.com : lenovo tablet</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<msg timestamp="20220701 08:36:39.987" level="INFO">Page title is 'Amazon.com : lenovo tablet'.</msg>
+<status status="PASS" starttime="20220701 08:36:39.975" endtime="20220701 08:36:39.988"/>
+</kw>
+<status status="PASS" starttime="20220701 08:36:36.035" endtime="20220701 08:36:39.988"/>
+</test>
+<test id="s1-t3" name="Amazon Add Product To Cart" line="23">
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>xpath=//div[@data-index="1"]//span[@data-component-type="s-product-image"]</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20220701 08:36:40.115" level="INFO">Element 'xpath=//div[@data-index="1"]//span[@data-component-type="s-product-image"]' is displayed.</msg>
+<status status="PASS" starttime="20220701 08:36:39.990" endtime="20220701 08:36:40.115"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//div[@data-index="1"]//span[@data-component-type="s-product-image"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220701 08:36:40.116" level="INFO">Clicking element 'xpath=//div[@data-index="1"]//span[@data-component-type="s-product-image"]'.</msg>
+<msg timestamp="20220701 08:36:46.640" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220701 08:36:46.642" level="FAIL">WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.66)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01036463+2188387]
+	Ordinal0 [0x00FCE461+1762401]
+	Ordinal0 [0x00EE3D78+802168]
+	Ordinal0 [0x00ED7210+750096]
+	Ordinal0 [0x00ED675A+747354]
+	Ordinal0 [0x00ED5D3F+744767]
+	Ordinal0 [0x00ED4C28+740392]
+	Ordinal0 [0x00ED5228+741928]
+	Ordinal0 [0x00EDF153+782675]
+	Ordinal0 [0x00EE9FBB+827323]
+	Ordinal0 [0x00EED310+840464]
+	Ordinal0 [0x00ED54F6+742646]
+	Ordinal0 [0x00EE9BF3+826355]
+	Ordinal0 [0x00F3CF6D+1167213]
+	Ordinal0 [0x00F2C5F6+1099254]
+	Ordinal0 [0x00F06BE0+945120]
+	Ordinal0 [0x00F07AD6+948950]
+	GetHandleVerifier [0x012D71F2+2712546]
+	GetHandleVerifier [0x012C886D+2652765]
+	GetHandleVerifier [0x010C002A+520730]
+	GetHandleVerifier [0x010BEE06+516086]
+	Ordinal0 [0x00FD468B+1787531]
+	Ordinal0 [0x00FD8E88+1805960]
+	Ordinal0 [0x00FD8F75+1806197]
+	Ordinal0 [0x00FE1DF1+1842673]
+	BaseThreadInitThunk [0x75B5FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77267A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77267A4E+238]
+</msg>
+<status status="FAIL" starttime="20220701 08:36:40.116" endtime="20220701 08:36:46.738"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220701 08:36:46.739" endtime="20220701 08:36:46.739"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>css:input[title="Add to Shopping Cart"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220701 08:36:46.742" endtime="20220701 08:36:46.742"/>
+</kw>
+<status status="FAIL" starttime="20220701 08:36:39.990" endtime="20220701 08:36:46.744">WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.66)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01036463+2188387]
+	Ordinal0 [0x00FCE461+1762401]
+	Ordinal0 [0x00EE3D78+802168]
+	Ordinal0 [0x00ED7210+750096]
+	Ordinal0 [0x00ED675A+747354]
+	Ordinal0 [0x00ED5D3F+744767]
+	Ordinal0 [0x00ED4C28+740392]
+	Ordinal0 [0x00ED5228+741928]
+	Ordinal0 [0x00EDF153+782675]
+	Ordinal0 [0x00EE9FBB+827323]
+	Ordinal0 [0x00EED310+840464]
+	Ordinal0 [0x00ED54F6+742646]
+	Ordinal0 [0x00EE9BF3+826355]
+	Ordinal0 [0x00F3CF6D+1167213]
+	Ordinal0 [0x00F2C5F6+1099254]
+	Ordinal0 [0x00F06BE0+945120]
+	Ordinal0 [0x00F07AD6+948950]
+	GetHandleVerifier [0x012D71F2+2712546]
+	GetHandleVerifier [0x012C886D+2652765]
+	GetHandleVerifier [0x010C002A+520730]
+	GetHandleVerifier [0x010BEE06+516086]
+	Ordinal0 [0x00FD468B+1787531]
+	Ordinal0 [0x00FD8E88+1805960]
+	Ordinal0 [0x00FD8F75+1806197]
+	Ordinal0 [0x00FE1DF1+1842673]
+	BaseThreadInitThunk [0x75B5FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77267A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77267A4E+238]
+</status>
+</test>
+<test id="s1-t4" name="Amazon Checkout Item" line="29">
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath=//input[@name="proceedToRetailCheckout"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220701 08:36:46.757" level="INFO">Clicking button 'xpath=//input[@name="proceedToRetailCheckout"]'.</msg>
+<msg timestamp="20220701 08:36:47.104" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220701 08:36:47.105" level="FAIL">Button with locator 'xpath=//input[@name="proceedToRetailCheckout"]' not found.</msg>
+<status status="FAIL" starttime="20220701 08:36:46.756" endtime="20220701 08:36:47.130"/>
+</kw>
+<status status="FAIL" starttime="20220701 08:36:46.753" endtime="20220701 08:36:47.132">Button with locator 'xpath=//input[@name="proceedToRetailCheckout"]' not found.</status>
+</test>
+<test id="s1-t5" name="Amazon Sign In For Checkout" line="34">
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>css:input[type="email"]</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20220701 08:36:47.392" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220701 08:36:47.393" level="FAIL">Element with locator 'css:input[type="email"]' not found.</msg>
+<status status="FAIL" starttime="20220701 08:36:47.136" endtime="20220701 08:36:47.395"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>css:input[type="email"]</arg>
+<arg>9347235225</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220701 08:36:47.397" endtime="20220701 08:36:47.397"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>css:input[id="continue"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220701 08:36:47.398" endtime="20220701 08:36:47.398"/>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>css:input[type="password"]</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20220701 08:36:47.399" endtime="20220701 08:36:47.399"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>css:input[type="password"]</arg>
+<arg>Auto@123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220701 08:36:47.400" endtime="20220701 08:36:47.400"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>css:input[id="signInSubmit"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220701 08:36:47.400" endtime="20220701 08:36:47.400"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220701 08:36:47.401" endtime="20220701 08:36:47.401"/>
+</kw>
+<status status="FAIL" starttime="20220701 08:36:47.134" endtime="20220701 08:36:47.402">Element with locator 'css:input[type="email"]' not found.</status>
+</test>
+<doc>This is the Amazon Suite</doc>
+<status status="FAIL" starttime="20220701 08:36:29.348" endtime="20220701 08:36:47.405"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="3" skip="0" id="s1" name="Amazon">Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
