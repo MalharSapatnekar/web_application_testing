@@ -5,7 +5,7 @@ Library  SeleniumLibrary
 
 *** Keywords ***
 Begin Web Test
-    Open Browser  http://www.amazon.com     firefox
+    Open Browser  http://www.amazon.com     headlessfirefox
     Maximize Browser Window
 
 *** Keywords ***
