@@ -1,0 +1,68 @@
+{
+  "testcases": [
+    {
+      "tc_id": "TC-PYT-001",
+      "name": "Amazon Search Pagination",
+      "description": "Verify pagination works when searching Bluetooth Speakers.",
+      "file": "AddProductsToCart/test_pagination.py",
+      "function": "test_pagination",
+      "tags": ["pagination", "search"]
+    },
+    {
+      "tc_id": "TC-PYT-002",
+      "name": "Amazon Price Filter",
+      "description": "Search Laptop and verify price filter applies correctly.",
+      "file": "AddProductsToCart/test_price_filter.py",
+      "function": "test_price_filter",
+      "tags": ["filter", "price"]
+    },
+    {
+      "tc_id": "TC-PYT-003",
+      "name": "Validate Filter Options",
+      "description": "Search Laptop and validate left-side filter availability.",
+      "file": "AddProductsToCart/test_search_and_validate_filters.py",
+      "function": "test_search_and_validate_filters",
+      "tags": ["filter", "search"]
+    },
+    {
+      "tc_id": "TC-PYT-004",
+      "name": "Search Pagination Next Page",
+      "description": "Search for USB Cable and verify next page pagination.",
+      "file": "AddProductsToCart/test_search_pagination_next_page.py",
+      "function": "test_search_pagination_next_page",
+      "tags": ["pagination", "search"]
+    },
+    {
+      "tc_id": "TC-PYT-005",
+      "name": "Search Results Count",
+      "description": "Verify at least one search result appears for Laptop query.",
+      "file": "AddProductsToCart/test_search_results_count.py",
+      "function": "test_search_results_count",
+      "tags": ["search"]
+    },
+    {
+      "tc_id": "TC-PYT-006",
+      "name": "Sort Low to High",
+      "description": "Verify low-to-high sorting for Laptop results is correct.",
+      "file": "AddProductsToCart/test_sort_low_to_high.py",
+      "function": "test_sort_low_to_high",
+      "tags": ["sorting"]
+    },
+    {
+      "tc_id": "TC-PYT-007",
+      "name": "Open Amazon Landing Page",
+      "description": "Verify that Amazon home page opens successfully.",
+      "file": "SearchProducts/test_landing_page.py",
+      "function": "test_user_can_open_amazon",
+      "tags": ["landing"]
+    },
+    {
+      "tc_id": "TC-PYT-008",
+      "name": "Search Products",
+      "description": "Verify search function works for Lenovo Tablet.",
+      "file": "SearchProducts/test_search_products.py",
+      "function": "test_user_can_search_products",
+      "tags": ["search"]
+    }
+  ]
+}
