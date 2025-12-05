@@ -1,4 +1,5 @@
 import time
+import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -13,7 +14,7 @@ def close_all_popups(driver):
     except:
         pass
 
-
+@pytest.mark.tc_id("TC-PYT-002")
 def test_price_filter(browser):
     browser.get("https://www.amazon.com")
     wait = WebDriverWait(browser, 40)

@@ -1,9 +1,10 @@
 import time
+import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
+@pytest.mark.tc_id("TC-PYT-004")
 def test_search_pagination_next_page(browser):
     wait = WebDriverWait(browser, 30)
 

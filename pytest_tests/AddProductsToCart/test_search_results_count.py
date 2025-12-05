@@ -1,8 +1,9 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import pytest
 
-
+@pytest.mark.tc_id("TC-PYT-005")
 def test_search_results_count(browser):
     browser.get("https://www.amazon.com")
     wait = WebDriverWait(browser, 20)

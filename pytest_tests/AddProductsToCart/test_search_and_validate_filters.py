@@ -1,4 +1,5 @@
 import time
+import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -26,7 +27,7 @@ def close_location_popup_if_present(browser):
     except:
         pass
 
-
+@pytest.mark.tc_id("TC-PYT-003")
 def test_search_and_validate_filters(browser):
     browser.get("https://www.amazon.com")
     wait = WebDriverWait(browser, 30)

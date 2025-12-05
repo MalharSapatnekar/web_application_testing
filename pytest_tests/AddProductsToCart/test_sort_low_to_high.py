@@ -1,8 +1,10 @@
 import time
+import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+@pytest.mark.tc_id("TC-PYT-006")
 def test_sort_low_to_high(browser):
     wait = WebDriverWait(browser, 40)
 
