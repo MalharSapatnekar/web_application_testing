@@ -1,0 +1,214 @@
+2025/12/03 19:59:13.839884 system_key.go:295: running from non-installed location /home/CyFast/geckodriver: ignoring system-key
+1764772159722	geckodriver	INFO	Listening on 127.0.0.1:39907
+1764772160498	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/snap/firefox/current/usr/lib/firefox/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileiJrN2G"
+Gtk-Message: 19:59:20.538: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+[451650, Main Thread] WARNING: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:451650): Gtk-WARNING **: 19:59:20.642: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 19:59:20.642: Failed to load module "canberra-gtk-module"
+[451650, Main Thread] WARNING: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:451650): Gtk-WARNING **: 19:59:20.644: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 19:59:20.644: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1764772161408	Marionette	INFO	Marionette enabled
+1764772162339	Marionette	INFO	Listening on port 33727
+Read port: 33727
+1764772162518	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("can't access property \"find\", this._searchProviderInfo is null", "moz-src:///browser/components/search/SearchSERPTelemetry.sys.mjs", 1141))
+libEGL warning: DRI2: failed to authenticate
+JavaScript warning: https://www.amazon.com/, line 3338: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1764772171189	Marionette	INFO	Stopped listening on port 33727
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
+JavaScript error: resource:///modules/AboutNewTab.sys.mjs, line 242: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: resource://gre/modules/JSONFile.sys.mjs, line 432: TypeError: can't access property "toJSONSafe", this._data is null
+2025/12/03 20:00:12.279934 system_key.go:295: running from non-installed location /home/CyFast/geckodriver: ignoring system-key
+1764772217400	geckodriver	INFO	Listening on 127.0.0.1:52897
+1764772218208	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/snap/firefox/current/usr/lib/firefox/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileBeFt92"
+Gtk-Message: 20:00:18.248: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+[452841, Main Thread] WARNING: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:452841): Gtk-WARNING **: 20:00:18.358: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 20:00:18.358: Failed to load module "canberra-gtk-module"
+[452841, Main Thread] WARNING: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:452841): Gtk-WARNING **: 20:00:18.359: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 20:00:18.359: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1764772219142	Marionette	INFO	Marionette enabled
+1764772220233	Marionette	INFO	Listening on port 41703
+Read port: 41703
+1764772220422	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("can't access property \"find\", this._searchProviderInfo is null", "moz-src:///browser/components/search/SearchSERPTelemetry.sys.mjs", 1141))
+libEGL warning: DRI2: failed to authenticate
+JavaScript warning: https://www.amazon.com/, line 3333: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1764772230255	Marionette	INFO	Stopped listening on port 41703
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
+JavaScript error: resource:///modules/AboutNewTab.sys.mjs, line 242: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: resource://gre/modules/JSONFile.sys.mjs, line 432: TypeError: can't access property "toJSONSafe", this._data is null
+2025/12/03 20:01:18.788359 system_key.go:295: running from non-installed location /home/CyFast/geckodriver: ignoring system-key
+1764772284378	geckodriver	INFO	Listening on 127.0.0.1:49471
+1764772284712	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/snap/firefox/current/usr/lib/firefox/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofiletVji0d"
+Gtk-Message: 20:01:24.752: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+[453939, Main Thread] WARNING: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:453939): Gtk-WARNING **: 20:01:24.863: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 20:01:24.863: Failed to load module "canberra-gtk-module"
+[453939, Main Thread] WARNING: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:453939): Gtk-WARNING **: 20:01:24.864: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 20:01:24.864: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1764772285656	Marionette	INFO	Marionette enabled
+1764772286659	Marionette	INFO	Listening on port 39561
+Read port: 39561
+1764772286860	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("can't access property \"find\", this._searchProviderInfo is null", "moz-src:///browser/components/search/SearchSERPTelemetry.sys.mjs", 1141))
+libEGL warning: DRI2: failed to authenticate
+JavaScript warning: https://www.amazon.com/, line 3346: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1764772298671	Marionette	INFO	Stopped listening on port 39561
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
+JavaScript error: resource:///modules/AboutNewTab.sys.mjs, line 242: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: resource://gre/modules/JSONFile.sys.mjs, line 432: TypeError: can't access property "toJSONSafe", this._data is null
+2025/12/03 20:01:44.158493 system_key.go:295: running from non-installed location /home/CyFast/geckodriver: ignoring system-key
+1764772308819	geckodriver	INFO	Listening on 127.0.0.1:60431
+1764772309090	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/snap/firefox/current/usr/lib/firefox/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile1dBJFB"
+Gtk-Message: 20:01:49.130: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+[454872, Main Thread] WARNING: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:454872): Gtk-WARNING **: 20:01:49.237: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 20:01:49.237: Failed to load module "canberra-gtk-module"
+[454872, Main Thread] WARNING: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:454872): Gtk-WARNING **: 20:01:49.239: GTK+ module /snap/firefox/7423/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 20:01:49.239: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1764772310034	Marionette	INFO	Marionette enabled
+1764772310927	Marionette	INFO	Listening on port 34441
+Read port: 34441
+1764772311117	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("can't access property \"find\", this._searchProviderInfo is null", "moz-src:///browser/components/search/SearchSERPTelemetry.sys.mjs", 1141))
+libEGL warning: DRI2: failed to authenticate
+JavaScript warning: https://www.amazon.com/, line 3338: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript warning: https://www.amazon.com/s?k=Lenovo+Tablet&ref=nb_sb_noss, line 15123: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1764772325608	Marionette	INFO	Stopped listening on port 34441
+JavaScript warning: https://m.media-amazon.com/images/I/51SSMvLbyWL._RC|41yXnd7BLWL.js,51QdbHLlEUL.js,21RoFlDNKHL.js,41fFmJrK7zL.js,01N0G7oHRlL.js,31-hnA-p85L.js,21MQrCW40bL.js,01KVpvQDfZL.js,21XkditqCiL.js,21oa8AG4VxL.js,0175nbnAD4L.js,41n8B+HM0VL.js,31X4VtYohlL.js,01qtTpqN9TL.js,11g2bV+cWTL.js,01QUqxbk4aL.js,01vpgLQ7sWL.js,018GOBOU8wL.js,014s6GxYjXL.js,01mq4gWWg+L.js,01Oy5H5EPsL.js,01bOMvXgu4L.js,210NxcRa2yL.js,01Qg3w8pUPL.js,01lx4jtyKqL.js,01+86qUwmpL.js,01tvS9Qe2bL.js,01+xQYdGnAL.js,01AvqPMFuiL.js,31koNc6s8bL.js,41-QEAw6JWL.js,21E+PtC+ukL.js,0136xjSLaaL.js,01hMcyEA2RL.js,01FDiMXUv+L.js,017lBD8zmsL.js,315OqIvkCfL.js,01jvUNUfNdL.js,01NwzGdaqAL.js,21dIRMMiDDL.js,51m9FvkngBL.js,31jzxcc0Q6L.js,01ly-sHeg8L.js,018v226z-QL.js,21z34K3nOVL.js,31M8YAO7NgL.js,01993rJ5roL.js,01SiFpsoIzL.js,21Hswl2Ng8L.js,11AnWPET7nL.js,01DQUzT6S8L.js,01sFQp1iloL.js,01XS6qpQiCL.js,01S5dga6DzL.js,01LbPmN08WL.js,01ppIh9wmjL.js,01v8HNSpzuL.js,01PTeQhvs-L.js,01RH6BojjLL.js,01GsEhoWBNL.js,014nwk4ykeL.js,012USBOk43L.js,21OG3u9bUQL.js,11lN9sWb9SL.js,01bccP7NUYL.js,81it-4YuY1L.js_.js?AUIClients/SearchPartnerAssets#us.948332-C.1149059-T1.1283077-T1.1280588-T1.1045532-T1.1233930-T1.1331703-T1.1285117-T1, line 736: Script terminated by timeout at:
+l/this.flush@https://m.media-amazon.com/images/I/51SSMvLbyWL._RC|41yXnd7BLWL.js,51QdbHLlEUL.js,21RoFlDNKHL.js,41fFmJrK7zL.js,01N0G7oHRlL.js,31-hnA-p85L.js,21MQrCW40bL.js,01KVpvQDfZL.js,21XkditqCiL.js,21oa8AG4VxL.js,0175nbnAD4L.js,41n8B+HM0VL.js,31X4VtYohlL.js,01qtTpqN9TL.js,11g2bV+cWTL.js,01QUqxbk4aL.js,01vpgLQ7sWL.js,018GOBOU8wL.js,014s6GxYjXL.js,01mq4gWWg+L.js,01Oy5H5EPsL.js,01bOMvXgu4L.js,210NxcRa2yL.js,01Qg3w8pUPL.js,01lx4jtyKqL.js,01+86qUwmpL.js,01tvS9Qe2bL.js,01+xQYdGnAL.js,01AvqPMFuiL.js,31koNc6s8bL.js,41-QEAw6JWL.js,21E+PtC+ukL.js,0136xjSLaaL.js,01hMcyEA2RL.js,01FDiMXUv+L.js,017lBD8zmsL.js,315OqIvkCfL.js,01jvUNUfNdL.js,01NwzGdaqAL.js,21dIRMMiDDL.js,51m9FvkngBL.js,31jzxcc0Q6L.js,01ly-sHeg8L.js,018v226z-QL.js,21z34K3nOVL.js,31M8YAO7NgL.js,01993rJ5roL.js,01SiFpsoIzL.js,21Hswl2Ng8L.js,11AnWPET7nL.js,01DQUzT6S8L.js,01sFQp1iloL.js,01XS6qpQiCL.js,01S5dga6DzL.js,01LbPmN08WL.js,01ppIh9wmjL.js,01v8HNSpzuL.js,01PTeQhvs-L.js,01RH6BojjLL.js,01GsEhoWBNL.js,014nwk4ykeL.js,012USBOk43L.js,21OG3u9bUQL.js,11lN9sWb9SL.js,01bccP7NUYL.js,81it-4YuY1L.js_.js?AUIClients/SearchPartnerAssets#us.948332-C.1149059-T1.1283077-T1.1280588-T1.1045532-T1.1233930-T1.1331703-T1.1285117-T1:736:193
+
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
+console.error: services.settings: 
+  main/cfr: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/normandy-recipes-capabilities: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/remote-permissions: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/search-categorization: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/third-party-cookie-blocking-exempt-urls: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/query-stripping: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/doh-providers: Signature of bundled changeset is invalid: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":272,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":223,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":433,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":15,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:223:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:272:15\nfetch@resource://services-settings/Utils.sys.mjs:223:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:272:15\nfetch@resource://services-settings/Utils.sys.mjs:223:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:272:15|fetch@resource://services-settings/Utils.sys.mjs:223:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":272,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":223,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":433,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":15,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:223:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:272:15\nfetch@resource://services-settings/Utils.sys.mjs:223:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:272:15\nfetch@resource://services-settings/Utils.sys.mjs:223:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:272:15|fetch@resource://services-settings/Utils.sys.mjs:223:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":272,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":223,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":433,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":15,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:223:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:272:15\nfetch@resource://services-settings/Utils.sys.mjs:223:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:272:15\nfetch@resource://services-settings/Utils.sys.mjs:223:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:272:15|fetch@resource://services-settings/Utils.sys.mjs:223:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":272,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":223,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":433,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":15,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:223:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:272:15\nfetch@resource://services-settings/Utils.sys.mjs:223:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:272:15\nfetch@resource://services-settings/Utils.sys.mjs:223:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:272:15|fetch@resource://services-settings/Utils.sys.mjs:223:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:433:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+JavaScript error: resource:///modules/AboutNewTab.sys.mjs, line 242: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: resource://gre/modules/JSONFile.sys.mjs, line 432: TypeError: can't access property "toJSONSafe", this._data is null
